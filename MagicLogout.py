@@ -8,5 +8,8 @@ with open ("config.json") as json_file:
   
   def magiclogout():
     while True:
-      
-
+      username=(input("username:>")
+      print("")
+      os.system("C:\\Windows\System32\\  "+username+" /server:"+server)
+                print("")
+      session = input("session name or id to logoff:>")
